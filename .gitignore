@@ -1,0 +1,24 @@
+# Local secrets and connection settings
+.env
+.env.*
+!.env.example
+credentials.json
+credentials.*
+service-account*.json
+token.json
+secrets.*
+.npmrc
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Local build and dependency output
+backend/target/
+frontend/node_modules/
+frontend/.angular/
+.DS_Store
